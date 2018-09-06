@@ -26,6 +26,8 @@ Note : make sure input.csv is placed under Assignment folder
 
 **Test**
 
+```
+
 Test cases are written at in Testcases.feature file place at ./Testcases.feature
 
 Scenario Outline: tc_verify_reverse_sorting
@@ -45,3 +47,17 @@ Examples:
 	|input_with_special_character.csv 			|singleline words contains non alphabet	|
 	|input_with_numbers.csv 					|singleline words contains non alphabet	|
 	|input_with_duplicate_words.csv				|words are sorted successfully			|
+	
+
+
+#Example Explanation
+#Example 0 : file path is invalid
+#Example 1: positive scenario
+#Example 2: Empty file, no content
+#Example 3: file has only spaces
+#Example 4: file has value like ,, 
+#Example 5: file has value like , , <with space>
+#Example 6: file has special character like !
+#Example 7: file has numbers like 123,456
+#Example 8: files has duplicate words like dd,dd,aa,cc,cc
+```
